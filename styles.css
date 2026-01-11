@@ -1,3 +1,16 @@
+#logoFedev
+{
+    width: 9.375rem;
+    height: 2.9375rem;
+    display: block;
+    position: fixed;
+    z-index: 1001;
+    top: 0.5rem;
+    left: 1rem;
+
+    
+}
+
 nav 
 {
     background-color:dimgray;
@@ -18,14 +31,6 @@ nav a
 nav a:hover
 {
     color: #00FF24;
-}
-
-nav img
-{
-    width: 9.375rem;
-    height: 2.9375rem;
-    
-    
 }
 
 nav ul 
