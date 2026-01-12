@@ -57,6 +57,21 @@ nav ul
     border-color: #00FF24;
 }
 
+#botonIdioma
+{
+    background-color: rgb(176, 176, 176);
+    border: 0.125rem solid white;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    color: white;
+}
+#botonIdioma:hover
+{
+    border-color: #00FF24;
+}
+
 #botonVolverArriba
 {
     position: fixed;
@@ -264,14 +279,12 @@ section, footer
 }
 
 
-/* ================== TEMA CLARO ================== */
 body.light-theme 
 {
     background-color: rgb(240, 240, 240);
     border-color: gray;
     color: black;
 }
-
 
 body.light-theme nav 
 {
@@ -289,13 +302,13 @@ body.light-theme nav a:hover
     color: #FF00CC;
 }
 
-body.light-theme #botonTema 
+body.light-theme #botonTema, body.light-theme #botonIdioma 
 {
     background-color: rgb(100, 100, 100);
     border-color: gray;
 }
 
-body.light-theme #botonTema:hover 
+body.light-theme #botonTema:hover, body.light-theme #botonIdioma:hover
 {
     border-color: #FF00CC;
 }
@@ -358,3 +371,5 @@ body.light-theme #botonSubirForm:hover {
     background-color: rgb(90, 90, 90);
     border-color: #FF00CC;
 }
+
+
