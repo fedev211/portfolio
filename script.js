@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function ()
   fotoPerfil = document.getElementById("fotoPerfil");
   botonIdioma = document.getElementById("botonIdioma");
 
-  CargarDatosFormulario(); //* CARGO LOS DATOS DEL FORMULARIO DESDE LOCALSTORAGE SI EXISTEN
-  OcultarTextoProyectos() //* OCULTO LOS TEXTOS DE LOS PROYECTOS HASTA QUE SE HAGA CLICK EN ELLOS
+  /*CargarDatosFormulario(); //* CARGO LOS DATOS DEL FORMULARIO DESDE LOCALSTORAGE SI EXISTEN
+  OcultarTextoProyectos() //* OCULTO LOS TEXTOS DE LOS PROYECTOS HASTA QUE SE HAGA CLICK EN ELLOS */
   MostrarBotonScroll(); //* AL RECARGAR LA PÁGINA, CHEQUEO SI HAY QUE MOSTRAR EL BOTÓN DE SCROLL
 
   //*LE ASIGNO LA FECHA ACTUAL AL FOOTER
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function ()
   //*AGREGO UN EVENTO DE CLICK AL BOTON DE VOLVER ARRIBA
   botonVolverArriba.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
   
-  //*AGREGO EL EVENTO DE CLICK AL BOTON DE SUBIR FORMULARIO, CHEQUEANDO QUE NINGUN ESPACIO ESTE VACIO Y QUE EL EMAIL SEA VÁLIDO
+  /*//*AGREGO EL EVENTO DE CLICK AL BOTON DE SUBIR FORMULARIO, CHEQUEANDO QUE NINGUN ESPACIO ESTE VACIO Y QUE EL EMAIL SEA VÁLIDO
   botonSubirForm.addEventListener("click", function (event) 
   {
 
@@ -85,11 +85,11 @@ document.addEventListener("DOMContentLoaded", function ()
         }
         
     }
-  });
+  });*/
 });
 
 
-function GuardarDatosFormulario() 
+/*function GuardarDatosFormulario() 
 {
   let datosForm = {nombre: document.getElementById("nombre").value, email: document.getElementById("email").value, mensaje: document.getElementById("mensaje").value};
 
@@ -108,7 +108,7 @@ function CargarDatosFormulario()
       document.getElementById("email").value = datosConvertidos.email;
       document.getElementById("mensaje").value = datosConvertidos.mensaje;
   }
-}
+}*/
 
 function OcultarTextoProyectos()
 {
